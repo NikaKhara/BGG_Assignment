@@ -1025,8 +1025,8 @@ MonoBehaviour:
   _currentVisualSlotsArray:
   - {fileID: 1945735980}
   - {fileID: 1628268418}
-  - {fileID: 1702314356}
   - {fileID: 1705254372}
+  - {fileID: 1702314356}
   _equipmentUI: {fileID: 1496151606}
 --- !u!4 &1731021507
 Transform:
@@ -1290,6 +1290,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 986067649503152918, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986067649750435224, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986067650006132022, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986067650010257582, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986067650136354745, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986067650682695929, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986067650786533463, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986067651530001883, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1112256579131336657, guid: fea2eb47a73fcbf48a27d5bbf3854f66,
         type: 3}
       propertyPath: m_SizeDelta.x

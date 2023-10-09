@@ -66,17 +66,12 @@ public class EquipmentManager : MonoBehaviour {
 		return _currentEquipment [(int)slot];
 	}
 
-	// Equip a new item
 	public void Equip (Equipment newItem)
 	{
 		Equipment oldItem = null;
 
-		// Find out what slot the item fits in
-		// and put it there.
 		int slotIndex = (int)newItem.equipSlot;
 
-		// If there was already an item in the slot
-		// make sure to put it back in the inventory
 		if (_currentEquipment[slotIndex] != null)
 		{
 			oldItem = _currentEquipment [slotIndex];
@@ -103,9 +98,7 @@ public class EquipmentManager : MonoBehaviour {
 			Equipment oldItem = _currentEquipment[slotIndex];
 			_inventory.Add(oldItem);
 			_equipmentSlots[slotIndex].ClearSlot();
-			// currentEquipment[slotIndex] = null;
 			_currentEquipment[slotIndex] = DefaultWear[slotIndex];
-			// Equipment has been removed so we trigger the callback
 			if (onEquipmentChanged != null)
 				onEquipmentChanged.Invoke(null, oldItem);
 			
